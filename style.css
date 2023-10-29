@@ -1,0 +1,38 @@
+body {
+    display: flex;
+}
+
+.left-bar {
+    width: 25%;
+}
+
+.right-side {
+    width: 75%;
+}
+
+.stuff-found {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.places-found {
+    list-style: none;
+    cursor: pointer;
+}
+
+.places-found:hover {
+    color: red;
+    transform: scale(1.05);
+}
+
+.right-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 0 50px 50px;
+}
+
+.image-results {
+    /* border: 1px solid black; */
+    width: 150px;
+}
